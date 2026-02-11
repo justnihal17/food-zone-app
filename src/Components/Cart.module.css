@@ -1,0 +1,99 @@
+.card {
+  width: 300px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+ 
+.Image_Container {
+  width: 100%;
+  height: 150px;               
+  display: flex;
+  align-items: center;         
+  justify-content: center;    
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;         
+}
+
+.content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;                
+}
+ 
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+  flex-grow: 1;               
+}
+
+ 
+ .content {
+  padding: 15px;
+} 
+ 
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+ 
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+ 
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e63946;
+}
+
+.rating {
+  background: green;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+ 
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: darkorange;
+}

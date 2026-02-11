@@ -1,0 +1,21 @@
+.header{
+   display: flex;
+   justify-content: space-between;
+   border: 1px solid black;
+}
+.logo>img{
+  height: 120px;
+  width: 120px;
+}
+.list>ul{
+    display: flex;
+    gap:30;
+    font-weight: 700;
+    list-style: none;
+    padding: 25px;
+
+}
+.list>li{
+    padding: 10px;
+    cursor: pointer;
+}
