@@ -1,0 +1,18 @@
+.Cards {
+    position: relative;
+}
+
+.lbl {
+    padding: 6px 8px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 100;
+    margin: 15px;
+    border-radius: 12px;
+}
+
+.lbl:hover {
+    background-color: white;
+    color: black;
+}
